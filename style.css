@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Pacifico&display=swap');
+
+.hidden {
+    display: none;
+}
+
+.login{
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    color: pink;
+    margin-top: 20px;
+}
+
+.abc{
+    background-size : cover;
+    width: 100vw;
+    height: 30vw;
+    z-index: -1;
+    
+}
+
+#login-form{
+    color:  pink;
+    font-family: 'Pacifico', cursive;
+
+}
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+    object-fit: cover;
+}
+
+#clock{
+    color:pink;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Pacifico', cursive;
+    padding-top: 2%;
+    margin-bottom: -5%;
+}
+
+#quote{
+    color: pink;
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-top: -30%;
+}
+
+.hidden{
+    align-content: center;
+}
+
+#greeting{
+    text-align: center;
+    color: pink;
+    font-family: 'Pacifico', cursive;
+    margin: 10px;
+}
+
+#divMusic{
+    position:absolute;
+    right: 300px;
+    top:45px;
+    
+}
+#music{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    
+}
+
+#todo-form input{
+    width: 450px;
+    border-radius: 40px;
+    display: block; 
+    margin: auto;
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    color: pink;
+}
+
+
+#todo-list{
+    font-family: 'Jua', sans-serif;
+    color: pink;
+    margin: 0 48vw;
+}
+
+.todo_box{
+    display: flex;
+    width: 30px;
+    margin: 0 27vw;
+    text-align: center;
+}
+
+#weather{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    font-family: 'Jua', sans-serif;
+    color: rgb(194, 49, 85);
+}
